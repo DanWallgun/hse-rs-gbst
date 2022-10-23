@@ -1,0 +1,15 @@
+device: cuda:0
+text_encoder:
+  class: CharTextEncoder
+model:
+  class: TransformerModel
+  d_model: 128
+  d_hid: 128
+  nlayers: 2
+  nhead: 4
+  conv_ks: 4
+  num_classes: 4
+  dropout: 0.2
+data:
+  name: ag_news
+  bsz: 256
