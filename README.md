@@ -7,5 +7,9 @@ Gradient-based Subword Tokenization
     !npx degit DanWallgun/hse-rs-gbst -f
     !pip install -r requirements.txt
     ```
-3. Follow the steps in the notebook.ipynb
-4. Change the implementation as you wish
+2. Follow the steps in the notebook.ipynb
+3. Change the implementation as you wish
+
+## Credits
+1. [Charformer paper](https://arxiv.org/abs/2106.12672)
+2. Basic pytorch-implementation of GBST by [lucidrains](https://github.com/lucidrains/charformer-pytorch)
