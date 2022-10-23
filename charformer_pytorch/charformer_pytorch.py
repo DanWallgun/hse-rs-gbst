@@ -228,4 +228,4 @@ class GBST(nn.Module):
         else:
             x = x.mean(dim = -2)
 
-        return x, mask
+        return x, mask, scores
